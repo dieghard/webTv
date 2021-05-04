@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Bienvenidos a los canales infantiles de Disney";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Bienvenidos a la pagina infantil de Disney</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card text-center">
+                <img class="card-img-top" src="./img/disney-channel-logo.png" alt="Disney Channel" alt="Disney Channel">
+                <div class="card-body">
+                    <h5 class="card-title">Disney Channel</h5>
+                    <p class="card-text">
+                        Disney XD es parte de The Walt Disney Company, siendo así canal hermano de Disney Channel y Disney Junior.
+                        Disney XD nació en el 2009, absorbiendo programación de Disney Channel y Jetix. Es por esto que el contenido de Disney XD es principalmente programas originales de Disney Channel, programas animados y sitcoms.
+                        Disney XD está mayormente destinado a preadolescentes y adolescentes.
+                        Disney XD llegó a Latinoamérica también durante el 2009, reemplazando al canal anteriormente mencionado Jetix, el cual a su vez había sustituido a Fox Kids.
+                    </p>
+                    <a class="align-self-end btn btn-lg btn-block btn-primary" asp-area="" asp-controller="Chanell" asp-action="Index">Ver Programación</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card text-center" >
+                <img class="card-img-top" src="./img/Disney XD.jpg" alt="Disney Channel" alt="Disney XD">
+                <div class="card-body">
+                    <h5 class="card-title">Disney XD</h5>
+                    <p class="card-text">
+                        Disney Channel
+                        Género Juvenil Infantil
+                        Fecha de estreno en Buenos Aires 31 de enero del 2000
+                        Origen EEUU
+                        Formatos 480i/576i SDTV 720p/1080i HDTV
+                        Fecha de nacimiento 13 de abril de 1983
+                        Señal Disney Channel HD; Disney Channel +1
+                        Teléfono 0810-345-6000
+                        Otros datos Canales hermanos: Disney XD y Disney Junior.
+                    </p>
+                    
+                    <a class="align-self-end btn btn-lg btn-block btn-primary " style="margin-top: 10rem;" asp-area="" asp-controller="Xd" asp-action="Index">Ver Programación</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card text-center" >
+                <img class="card-img-top" src="./img/Disney Junior.jpg" alt="Disney Junior" alt="Disney Junior">
+                <div class="card-body">
+                    <h5 class="card-title">Disney Junior</h5>
+                    <p class="card-text">
+                        Género Pre-escolar Infantil
+                        Fecha de estreno en Buenos Aires 1 de abril del 2011
+                        Origen EEUU
+                        Fecha de nacimiento 14 de febrero del 2011
+                        Teléfono 0810-345-6000
+                        Otros datos Canales hermanos: Disney XD y Disney Channel.
+                    </p>
+                    
+                    <a class="align-self-end btn btn-lg btn-block btn-primary " style="margin-top: 14.5rem;" asp-area="" asp-controller="Junior" asp-action="Index">Ver Programación</a>
+                </div>
+            </div>
+        </div>
+    </div>
